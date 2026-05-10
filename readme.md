@@ -22,7 +22,7 @@ pipx install open-webui --python 3.12
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-Then, start ollama in that window by typing
+Then, start Ollama in that window by typing
 
     brew services start ollama 
 
@@ -30,7 +30,7 @@ then type
 
     open-webui serve  
     
-Single Command to start Ollama and start Open Webui:
+Single Command to start Ollama and start Open-Webui:
 
     brew services start ollama && open-webui serve
 
