@@ -5,7 +5,7 @@ Installing Open-WebUI and Ollama on Apple Silicon (without Docker)
 
 If you want to learn Open-WebUI, how it works, or you want to set up a server for more than one computer on your network to access or you want maximum performance (because running Ollama in Docker for Mac doesn't use your GPU) then follow this guide. This was tested on MacOS Tahoe 26.4.1
 
-> NOTE: After Installation use the included update script [update-ollama-openwebui.sh](https://github.com/andrewpayne68/ollama-openwebui-macos26/blob/main/update-ollama-openwebui.sh) to update both Ollama and Open-WebUI to the latest available versions online.
+> NOTE: After Installation use the included update script [update-ollama-openwebui.sh](https://github.com/andrewpayne68/ollama-openwebui-macos26/blob/main/update-ollama-openwebui.sh) to update both Ollama and Open-WebUI to the latest available versions online. This script will close both if they are running, check for updates, install any available updates and then restart both applications.
 
 &nbsp;&nbsp;&nbsp;
 
