@@ -38,7 +38,7 @@ If you receive error, scroll down to see solution.
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-You should see "OpenWebUI" in large text within the terminal window if successfull. In my experience, both windows have to be open separately for both to run, but start Ollama first. You can minimize both windows at this point while you're running Open WebUI. 
+You should see "Open-WebUI" in large text within the terminal window if successfull. In my experience, both windows have to be open separately for both to run, but start Ollama first. You can minimize both windows at this point while you're running Open-WebUI. 
 
 Then open a web browser and go to http://localhost:8080 and create your first account, the admin account.
 
@@ -52,14 +52,14 @@ Your GPU VRAM maximum allocation is usually 75% of total RAM, but this can be tw
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-Upgrade Open WebUI and Ollama:
+Upgrade Open-WebUI and Ollama:
 -
 
 To upgrade to latest versions of Ollama:
 
     brew upgrade ollama
 
-To upgrade to latest version of Open WebUI:
+To upgrade to latest version of Open-WebUI:
 
     pipx upgrade open-webui
 
@@ -84,9 +84,9 @@ and then closed/reopened Terminal and it works!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-Advanced Tip - Running Open WebUI in the background
+Advanced Tip - Running Open-WebUI in the background
 -
-If you want to start both Ollama and Open WebUI in the background, and not need to keep the Terminal window open, then you can use the following command:
+If you want to start both Ollama and Open-WebUI in the background, and not need to keep the Terminal window open, then you can use the following command:
 
     brew services restart ollama && nohup open-webui serve &>/tmp/open-webui.log &
 
@@ -104,7 +104,7 @@ to restart Ollama (stop and start)
 
     brew services restart ollama
 
-and to stop both Ollama and Open WebUI, use the following:
+and to stop both Ollama and Open-WebUI, use the following:
 
     brew services stop ollama && pkill -f "open-webui" 1>/dev/null
 
