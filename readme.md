@@ -13,9 +13,11 @@ Open up a Terminal window, and paste in the following commands, one at a time, a
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+```
+```
 brew install ollama pipx
-
+```
+```
 pipx install open-webui --python 3.12
 ```  
 
