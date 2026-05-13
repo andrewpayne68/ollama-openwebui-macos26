@@ -18,13 +18,17 @@ Open up a Terminal window, and paste in the following commands, one at a time, a
 brew install ollama pipx
 ```
 ```
-pipx install open-webui --python 3.12
-```  
+pipx install --fetch-python=missing --python 3.11 open-webui --force
+```
+```
+pipx ensurepath
+```
+reboot your mac.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-Then, start Ollama in that window by typing
+After a reboot, start Ollama in that window by typing
 
     brew services start ollama 
 
@@ -36,7 +40,7 @@ Single Command to start Ollama and start Open-Webui:
 
     brew services start ollama && open-webui serve
 
-If you receive error, scroll down to see solution.  
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -67,22 +71,6 @@ To upgrade to latest version of Open-WebUI:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-Problem running command `open-webui serve`
--
-
-On my Mac (Tahoe 26.4.1) after 
-
-    pipx install --fetch-python=missing --python 3.11 open-webui --force
-
-then
-
-    pipx ensurepath
-
-
-(ignore the bashrc suggestion, MacOS uses zsh) 
-
-and then closed/reopened Terminal and it works! 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
