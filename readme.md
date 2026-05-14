@@ -58,7 +58,7 @@ Your GPU VRAM maximum allocation is usually 75% of total RAM, but this can be tw
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-Upgrade Open-WebUI and Ollama:
+Manually Upgrade Open-WebUI and Ollama:
 -
 
 To upgrade to latest versions of Ollama:
@@ -69,6 +69,7 @@ To upgrade to latest version of Open-WebUI:
 
     pipx upgrade open-webui
 
+See included update script [update-ollama-openwebui.sh](https://github.com/andrewpayne68/ollama-openwebui-macos26/blob/main/update-ollama-openwebui.sh) which will update both ollama and Open-WebUI to the latest versions and restart the services.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
